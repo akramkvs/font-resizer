@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Text Resizer Plugin Example</title>
+	<link type="text/css" href="./css/resizer.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="container" style="margin-top:150px;">
+		<div class="resizer" style="margin-top:30px;">
+			<button class="sm btn btn-default">A-</button>
+			<button class="md btn btn-info">A</button>
+			<button class="lg btn btn-warning">A+</button>
+		</div>
+		<div class="" style="margin-top:30px;">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia orci et aliquam convallis. In sem turpis, laoreet et
+				leo quis, condimentum luctus massa. Sed convallis dui quis leo scelerisque, eu tempor nibh aliquam. Morbi vitae risus
+				lorem. Integer pellentesque mi viverra aliquam finibus. Nulla condimentum ligula diam, finibus rhoncus risus condimentum
+				imperdiet. Ut ac orci eleifend, egestas dolor sed, blandit quam. Quisque erat tellus, commodo a tempus sed, bibendum
+				sed orci. Nullam pretium at massa ac condimentum.
+			</p>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="./js/jquery.cookie.js"></script>
+	<script src="./js/jquery.resizer.min.js"></script>
+	<script>
+			$("body").resizable();
+			alert(document.cookie)
+	</script>
+
+
+
+</body>
+
+</html>
